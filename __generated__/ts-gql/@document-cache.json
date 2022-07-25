@@ -1,19 +1,24 @@
 {
   "version": "ts-gql-document-extractor@v3,@babel/parser@7.18.9",
-  "integrity": "__TS_GQL_INTEGRITY_70011b2005d1259eb5396d8e6ba8b08c_TS_GQL_INTEGRITY__",
+  "integrity": "__TS_GQL_INTEGRITY_2b155bfc7d7b13958ebf09197e5295be_TS_GQL_INTEGRITY__",
   "cache": {
-    "/Users/sjahromi/playground/IA/auth.ts": {
-      "hash": "f4db66878fb915c81c744c78c99aa600",
-      "errors": [],
-      "documents": []
-    },
     "/Users/sjahromi/playground/IA/keystone.ts": {
       "hash": "a93eae0abf058b17f4cdfedb2a344384",
       "errors": [],
       "documents": []
     },
+    "/Users/sjahromi/playground/IA/auth.ts": {
+      "hash": "f4db66878fb915c81c744c78c99aa600",
+      "errors": [],
+      "documents": []
+    },
     "/Users/sjahromi/playground/IA/schema.ts": {
       "hash": "6621d3eb11eeaa70b883a8072c4a60f5",
+      "errors": [],
+      "documents": []
+    },
+    "/Users/sjahromi/playground/IA/__generated__/ts-gql/@introspection.ts": {
+      "hash": "256594686a52a9a6f360f58b8f6ac15c",
       "errors": [],
       "documents": []
     }

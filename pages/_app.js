@@ -1,5 +1,6 @@
 import 'tailwindcss/tailwind.css';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import { SessionProvider } from "next-auth/react"
 import { useMemo } from 'react';
 
 
@@ -18,7 +19,9 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   );
   return (
     <ApolloProvider client={client}>
+        <SessionProvider session={pageProps.session} refetchInterval={0}>
         <Component {...pageProps} />
+        </SessionProvider>
     </ApolloProvider>
   );
 }
